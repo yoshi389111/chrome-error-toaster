@@ -14,5 +14,8 @@
     "chrome-extension",
     "error",
     "toast"
-  ]
+  ],
+  "scripts": {
+    "zip": "zip -r target/chrome-error-toaster.zip . -x '*.git*' 'node_modules/*' 'target/*' '.editorconfig'"
+  }
 }
