@@ -1,0 +1,6 @@
+body {
+  margin: 0.5em;
+}
+label {
+  white-space: nowrap;
+}

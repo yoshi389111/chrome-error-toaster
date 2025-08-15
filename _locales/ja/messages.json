@@ -1,0 +1,40 @@
+{
+    "extensionName": {
+        "message": "Chromeエラー・トースター",
+        "description": "このChrome拡張の名前"
+    },
+    "extensionDescription": {
+        "message": "画面のエラーをトースト通知する",
+        "description": "このChrome拡張の説明"
+    },
+    "titleScriptError": {
+        "message": "【スクリプトエラー】",
+        "description": "スクリプトエラー時のタイトル"
+    },
+    "titleResourceError": {
+        "message": "【リソースロードエラー】",
+        "description": "リソースロードエラー時のタイトル"
+    },
+    "titleUnhandledPromiseRejection": {
+        "message": "【未処理のPromise拒否】",
+        "description": "未処理のPromise拒否時のタイトル"
+    },
+    "titleConsoleError": {
+        "message": "【 console.error() 】",
+        "description": "console.error() 時のタイトル"
+    },
+    "messageResourceError": {
+        "message": "<$tagname$> タグの読み込みに失敗しました",
+        "description": "リソースの読み込みエラーメッセージ",
+        "placeholders": {
+            "tagname": {
+                "content": "$1",
+                "example": "img"
+            }
+        }
+    },
+    "labelEnable": {
+        "message": "有効にする",
+        "description": "Chromeエラー・トースターを有効にするためのラベル"
+    }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "chrome-error-toaster",
+  "version": "0.1.0",
+  "description": "Displays errors as toast notifications in Chrome",
+  "license": "MIT",
+  "author": "SATO Yoshiyuki",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yoshi389111/chrome-error-toaster.git"
+  },
+  "type": "commonjs",
+  "main": "index.js",
+  "keywords": [
+    "chrome-extension",
+    "error",
+    "toast"
+  ]
+}

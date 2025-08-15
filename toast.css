@@ -1,0 +1,30 @@
+#chrome-error-toaster-toast {
+  position: fixed;
+  left: 12px;
+  top: 12px;
+  z-index: 9999;
+  background: #feb;
+  color: #520;
+  padding: 16px 24px;
+  border-radius: 8px;
+  border: solid 2px #752;
+  box-shadow: 3px 3px #752;;
+  font-size: 1em;
+  max-width: 30vw;
+  word-break: break-all;
+  animation: error-toast-in 0.3s;
+}
+
+@keyframes error-toast-in {
+  from { transform: translateY(40px); opacity: 0; }
+  to { transform: translateY(0); opacity: 0.95; }
+}
+
+.toast-message {
+  font-size: 1.2em;
+  margin: 0.5em 0;
+}
+
+.toast-source {
+  font-size: 0.8em;
+}

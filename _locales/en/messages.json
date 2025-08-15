@@ -1,0 +1,40 @@
+{
+    "extensionName": {
+        "message": "Chrome Error Toaster",
+        "description": "The name of the Chrome extension"
+    },
+    "extensionDescription": {
+        "message": "Displays errors as toast notifications",
+        "description": "The description of the Chrome extension"
+    },
+    "titleScriptError": {
+        "message": "[ Script Error ]",
+        "description": "Title for script errors"
+    },
+    "titleResourceError": {
+        "message": "[ Resource Load Error ]",
+        "description": "Title for resource load errors"
+    },
+    "titleUnhandledPromiseRejection": {
+        "message": "[ Unhandled Promise Rejection ]",
+        "description": "Title for unhandled promise rejections"
+    },
+    "titleConsoleError": {
+        "message": "[ console.error() ]",
+        "description": "Title for console.error() messages"
+    },
+    "messageResourceError": {
+        "message": "Failed to load <$tagname$>",
+        "description": "Message for resource load errors",
+        "placeholders": {
+            "tagname": {
+                "content": "$1",
+                "example": "img"
+            }
+        }
+    },
+    "labelEnable": {
+        "message": "Enable",
+        "description": "Label for enabling the Chrome Error Toaster"
+    }
+}
