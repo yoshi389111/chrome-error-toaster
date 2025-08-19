@@ -9,7 +9,7 @@
   border-radius: 8px;
   border: solid 2px #752;
   box-shadow: 3px 3px #752;;
-  font-size: 1em;
+  font-size: 0.8em;
   max-width: 30vw;
   word-break: break-all;
   animation: error-toast-in 0.3s;
@@ -27,4 +27,21 @@
 
 .toast-source {
   font-size: 0.8em;
+}
+
+.close-button {
+  position: absolute;
+  top: 0;
+  right: 16px;
+  cursor: pointer;
+  background: transparent;
+  font-size: 1.5em;
+  z-index: 9999;
+  transition: top 0.2s ease, right 0.2s ease;
+}
+
+.close-button:hover,
+.close-button:focus {
+  top: 2px;
+  right: 14px;
 }
