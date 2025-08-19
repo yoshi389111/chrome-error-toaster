@@ -85,7 +85,7 @@ function showToast(type, message, source, duration = 2000) {
     toast.appendChild(sourceElement);
   }
 
-  toast.addEventListener("click", () => {
+  toast.addEventListener("mousemove", () => {
     extendDisplayTime(duration);
   });
 
