@@ -37,4 +37,11 @@
   background: transparent;
   font-size: 1.5em;
   z-index: 9999;
+  transition: top 0.2s ease, right 0.2s ease;
+}
+
+.close-button:hover,
+.close-button:focus {
+  top: 2px;
+  right: 14px;
 }
