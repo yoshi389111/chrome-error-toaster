@@ -62,6 +62,12 @@ function showToast(type, message, source, duration = 2000) {
   const toast = document.createElement("div");
   toast.id = TOAST_ID;
 
+  const closeButton = document.createElement("div");
+  closeButton.className = "close-button";
+  closeButton.textContent = "\u00d7";
+  closeButton.addEventListener("click", () => removeToast());
+  toast.appendChild(closeButton);
+
   const typeElement = document.createElement("div");
   typeElement.className = "toast-type";
   typeElement.textContent = getTypeMessage(type);
